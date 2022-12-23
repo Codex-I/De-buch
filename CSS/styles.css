@@ -33,17 +33,20 @@ img {
 
 nav {
     display: flex;
+    gap: 1em;
     list-style-type: none;
+    width: 34%;
 }
 
 li {
     padding: 1%;
-    width: 7em;
     text-align: center;
 }
+
 li a:hover {
     font-weight: 700;
 }
+
 a {
     text-decoration: none;
     color: #541316;
@@ -53,11 +56,13 @@ a {
 .ham {
     display: none;
 }
+
 main {
     display: flex;
     flex-direction: column;
     /* gap: 4em; */
 }
+
 .hro-cont {
     display: flex;
     align-items: center;
@@ -83,8 +88,7 @@ main {
 .hro-cont p {
     line-height: 1.5;
     font-size: 15px;
-    color: #3c3a3a;
-    font-weight: 600;
+    color: #837f7f;
 }
 
 button {
@@ -133,6 +137,7 @@ button:hover {
 .local h2 {
     font-size: 20px;
     color: #541316;
+    padding-left: 5em;
 }
 
 .local h3 {
@@ -184,8 +189,9 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
     gap: 3em;
-    background-color: #bebbbb;
+    background-color: #fafafa;
 }
+
 .opt {
     width: 30%;
     display: flex;
@@ -193,15 +199,18 @@ button:hover {
     gap: 1em;
     align-items: center;
 }
+
 .serv {
     display: flex;
     gap: 2em;
 }
+
 .service h1,
 .menu h1 {
     font-size: 28px;
     text-align: center;
 }
+
 .service h4 {
     font-size: 1.4em;
     color: rgb(83, 83, 83);
@@ -209,13 +218,14 @@ button:hover {
 }
 
 .service img {
-    width: 100px;
+    width: 70px;
     align-self: center;
 }
 
 .service p {
     color: #363636;
     font-size: 14px;
+    text-align: center;
 }
 
 .service button {
@@ -224,6 +234,7 @@ button:hover {
     color: #131212;
     outline: 1px solid;
 }
+
 .service button:hover {
     background-color: #131212;
     color: white;
@@ -234,19 +245,19 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 85%;
-    margin: 0 auto;
+    background-color: white;
 }
 
 .rev {
     font-size: 20px;
     align-self: center;
-    padding: 8px;
+    padding: 28px;
 }
 
 .rev-card {
     display: flex;
     gap: 2em;
+    padding: 2em
 }
 
 .profile {
@@ -264,7 +275,7 @@ button:hover {
 
 .profile h6 {
     font-weight: 800;
-    font-size: 13px;
+    font-size: 15px;
     font-family: cursive;
 }
 
@@ -288,14 +299,13 @@ button:hover {
 }
 
 .com {
-    font-weight: 600;
+    font-weight: 400;
     color: #535353;
     font-size: 14px;
 }
 
 footer {
     background-color: #131212;
-    margin-top: 8em;
     display: flex;
     flex-direction: column;
     padding: 5em;
@@ -304,7 +314,8 @@ footer {
 
 .cont-detail {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2em;
 }
 
 .cont-detail div {
@@ -371,7 +382,6 @@ footer {
     main {
         display: flex;
         flex-direction: column;
-        gap: 3em;
     }
 
     header {
@@ -434,15 +444,18 @@ footer {
         width: 7rem;
         padding: 1rem;
     }
- 
+
     .card button {
         padding: 10px;
     }
+
     .card h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
+
     .local h2 {
-        font-size: 25px;
+        padding: 0;
+    text-align: center;
     }
 
     .group {
@@ -493,7 +506,7 @@ footer {
     }
 
     nav {
-        gap: 0;
+        width: 42%;
     }
 
     li:hover {
@@ -511,6 +524,8 @@ footer {
 
     .local h2 {
         font-size: 30px;
+        text-align: center;
+        padding: 0;
     }
 
     .card {
@@ -528,8 +543,8 @@ footer {
         padding: 2em;
     }
 
-    .review {
-        width: 91%;
+    .service img {
+        width: 50px;
     }
 
     .rev-card {
