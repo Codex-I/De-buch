@@ -483,7 +483,7 @@ footer {
 
     .hro-cont img,
     .card {
-        width: 70%;
+        width: 250px;
         align-self: center;
     }
 
@@ -569,7 +569,7 @@ footer {
 
     .cnt,
     .drip div {
-        width: 85%;
+        width: 250px;
         padding: 15px;
     }
 
@@ -730,7 +730,7 @@ footer {
 
     .cnt,
     .drip div {
-        width: 37%;
+        width: 250px;
     }
 
     .drip {
